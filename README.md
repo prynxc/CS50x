@@ -5,10 +5,10 @@
 
 - [Pset1](/Pset1)
   * [x] [hello](/Pset1/hello)
-  * [cash](/pset1/cash)
-  * [credit](/pset1/credit)
-  * mario
-    + [less](/pset1/mario/less)
-    + [more](/pset1/mario/more)
-- [Pset2](/pset2)
-  * [caesar](/pset2/caesar)
+  * [x] [cash](/Pset1/cash)
+  * [x] [credit](/Pset1/credit)
+  * [x] mario
+    + [x] [less](/pset1/mario/less)
+    + [x] [more](/pset1/mario/more)
+- [Pset2](/Pset2)
+  * [x] [caesar](/Pset2/caesar)
