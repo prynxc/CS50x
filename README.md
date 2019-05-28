@@ -3,8 +3,8 @@
 
 ## Table of Contents
 
-- [pset1](/pset1)
-  * [hello](/pset1/hello)
+- [pset1](/Pset1)
+  * [hello](/Pset1/hello)
   * [cash](/pset1/cash)
   * [credit](/pset1/credit)
   * mario
