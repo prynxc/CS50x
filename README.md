@@ -1,1 +1,14 @@
-# CS50x
+# CS50x - 2019 Solutions
+-------------------------
+
+## Table of Contents
+
+- [pset1](/pset1)
+  * [hello](/pset1/hello)
+  * [cash](/pset1/cash)
+  * [credit](/pset1/credit)
+  * mario
+    + [less](/pset1/mario/less)
+    + [more](/pset1/mario/more)
+- [pset2](/pset2)
+  * [caesar](/pset2/caesar)
