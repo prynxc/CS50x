@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Pset1](/Pset1)
-  * [hello](/Pset1/hello)
+  * [x] [hello](/Pset1/hello)
   * [cash](/pset1/cash)
   * [credit](/pset1/credit)
   * mario
