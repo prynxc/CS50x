@@ -6,7 +6,7 @@
 - [Pset1](/Pset1)
   * [x] [hello](/Pset1/hello)
   * [x] [cash](/Pset1/cash)
-  * [x] [credit](/Pset1/credit)
+  * [ ] [credit](/Pset1/credit)
   * [x] mario
     + [x] [less](/pset1/mario/less)
     + [x] [more](/pset1/mario/more)
