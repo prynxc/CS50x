@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 
-bool checksum(long cardNo); // Initialise checksum (useses Luhn's algo) to valide creditcard num
+bool checksum(long cardNo); // Initialise checksum (Luhn's algo) to valide creditcard num
 int cardLen(long cardNo); // Initialises function to find length of credit card num
 int cardStart(long cardNo, int cLen); // Initialises function to get the starting digit(s) of the credit card using the length
 
