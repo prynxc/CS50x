@@ -89,34 +89,34 @@ int cardLen(long cardNo) // Gets the length of the he card number
     return len;
 }
 
-int cardStart(long cardNo, int cLen)
+int cardStart(long cardNo, int cLen) // Finds the starting digit(s) of the card num, dependent on the length of the card (cLen).
 {
-    if (cLen == 13)
+    if (cLen == 13) // VISA are 13 digits long and start with 4 (need first digit)
     {
-        for (int i = 0; i < (cLen - 1); i++)
+        for (int i = 0; i < (cLen - 1); i++) // cLen - 1 = 12 
         {
             cardNo /= 10;
         }
     }
-    else if (cLen == 15)
+    else if (cLen == 15) // AMEX are 15 digits long and start with 34 or 37 (need first two digits)
     {
-        for (int i = 0; i < (cLen - 2); i++)
+        for (int i = 0; i < (cLen - 2); i++) // cLen - 2 = 13
         {
             cardNo /= 10;
         }
     }
-    else if (cLen == 16)
+    else if (cLen == 16) // MASTERCARD and VISA are 16 digits
     {
-        for (int i = 0; i < (cLen - 2); i++)
+        for (int i = 0; i < (cLen - 2); i++) 
         {
             cardNo /= 10;
         }
 
-        if (cardNo >= 51 && cardNo <= 55)
+        if (cardNo >= 51 && cardNo <= 55) // MASTERCARD starts with 51 to 55
         {
             return cardNo;
         }
-        else if ((cardNo /= 10) == 4)
+        else if ((cardNo /= 10) == 4) // VISA starts with 4
         {
             return cardNo;
         }
