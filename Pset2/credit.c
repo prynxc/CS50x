@@ -4,15 +4,12 @@
 *   is a Visa, American Express, or MasterCard.         *
 *********************************************************/
 
-
 #include <stdio.h>
 #include <cs50.h>
-
 
 bool checksum(long cardNo); // Initialise checksum (Luhn's algo) to valide creditcard num
 int cardLen(long cardNo); // Initialises function to find length of credit card num
 int cardStart(long cardNo, int cLen); // Initialises function to get the starting digit(s) of the credit card using the length
-
 
 int main(void)
 {
@@ -63,13 +60,10 @@ int main(void)
 
 
 bool checksum(long cardNo) 
-/***********************************************************************************************************************************************
-*   Luhn's Algorithm to check if it is a valid credit card number:      																	   *
-*   1.Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products’ digits together.          *
-*   2.Add the sum to the sum of the digits that weren’t multiplied by 2.         															   *
-*	3.If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!				   *
-************************************************************************************************************************************************/
-
+// Luhn's Algorithm to check if it is a valid credit card number:      									
+// 1.Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products’ digits together.         
+// 2.Add the sum to the sum of the digits that weren’t multiplied by 2.         															   
+// 3.If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!				  
 {
     int odd = 0;
     int even = 0;
@@ -104,7 +98,6 @@ int cardLen(long cardNo) // Gets the length of the card number
         cardNo /= 10;
         len ++;
     }
-
     return len;
 }
 
@@ -141,6 +134,5 @@ int cardStart(long cardNo, int cLen) // Finds the starting digit(s) of the card 
         }
 
     }
-
     return cardNo;
 }
