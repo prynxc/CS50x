@@ -1,3 +1,10 @@
+/********************************************************
+*   This is a simple C program that allows you to       *
+*   determine whether a given credit card number        *
+*   is a Visa, American Express, or MasterCard.         *
+*********************************************************/
+
+
 #include <stdio.h>
 #include <cs50.h>
 
@@ -56,10 +63,13 @@ int main(void)
 
 
 bool checksum(long cardNo) 
-/* Luhn's Algorithm to check if it is a valid credit card number */
-/* Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products’ digits together. */
-/* Add the sum to the sum of the digits that weren’t multiplied by 2. */
-/* If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid! */
+/***********************************************************************************************************************************************
+*   Luhn's Algorithm to check if it is a valid credit card number:      																	   *
+*   1.Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products’ digits together.          *
+*   2.Add the sum to the sum of the digits that weren’t multiplied by 2.         															   *
+*	3.If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!				   *
+************************************************************************************************************************************************/
+
 {
     int odd = 0;
     int even = 0;
