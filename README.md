@@ -1,4 +1,4 @@
-:mortar_board: :computer: CS50x - 2019 Solutions
+:mortar_board: CS50x - 2019 Solutions
 -------------------------
 
 ## Table of Contents
