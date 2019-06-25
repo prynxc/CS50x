@@ -3,8 +3,8 @@
 
 ## Table of Contents
 
-- [Problem Set1] (https://github.com/prynxc/CS50x/tree/master/Problem%20Set%201)
-  * [x] [hello](/Pset1/hello)
+- [Problem Set1] 
+  * [x] [hello] (/Problem Set 1/hello.c)
   * [x] [cash](/Pset1/cash)
   * [x] [credit](/Pset1/credit)
   * [x] mario
