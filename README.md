@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Problem Set1] 
-  * [x] [hello](/Problem Set 1/hello)
+  * [x] [hello](/Pset1/hello)
   * [x] [cash](/Pset1/cash)
   * [x] [credit](/Pset1/credit)
   * [x] mario
